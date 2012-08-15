@@ -1,0 +1,288 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50215</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36168C30-E146-42C6-8874-9D04A7457DCC}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>EU2Data</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EU2</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Province.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ProvinceList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\TerrainVariant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\Culture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\Goods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PlaceInWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\Religion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\Terrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\IDNotFoundException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\InvalidAdjacentValueException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\InvalidProvinceIDException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\InvalidZoomFactorException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\RegionSizeException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ScanlineValueOutOfRangeException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IInstallLinked.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Install.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\CSVReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\CSVWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\ICSVReadable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\ICSVWriteable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\IStreamWriteable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\AdjacencyTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\BorderMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\BoundBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\BreadthFirstTreeWalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\CompressedBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\DelegateWalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\DepthFirstTreeWalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\GenericMapBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\ImageDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\ImageEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\ITreeWalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\Compressor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\DefaultCompressor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\LesserCompressor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\Stringizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\TreeClipper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\TreeClipperDeep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\MapBlockHandling\TreeOptimiser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\Pixel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Codec\RawImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\CoordinateMapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\BorderShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\ColoredShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\ColorScales.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\GrayScaledShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\IncognitaShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\IShaders.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\LightLevels.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\TerrainShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Drawing\Visualiser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\IDGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\IDMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\ILightmapDimensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\IncognitaGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\Lightmap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\ProvinceBoundBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Map\ScanlineCodedMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
