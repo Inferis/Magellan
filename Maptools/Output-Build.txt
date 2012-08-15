@@ -1,0 +1,27 @@
+------ Build started: Project: EU2Data, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+
+The project is up-to-date.
+Building satellite assemblies...
+
+
+
+------ Build started: Project: EU2MapEditorControls, Configuration: Debug .NET ------
+
+Preparing resources...
+Updating references...
+Performing main compilation...
+
+Build complete -- 0 errors, 0 warnings
+Building satellite assemblies...
+
+
+
+---------------------- Done ----------------------
+
+    Build: 2 succeeded, 0 failed, 0 skipped
+
+

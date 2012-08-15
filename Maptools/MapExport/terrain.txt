@@ -1,0 +1,152 @@
+#TODO, add other rules here.. like climate / attrition modifiers..
+
+#white
+ocean = { 
+	color = {
+		0 
+	}
+	movement_cost = 1.0
+	is_water = yes
+	has_texture = no
+}
+
+#red
+farmland = {
+	color = {
+		1 2 3 4 5 6 7
+	}
+	movement_cost = 1.25
+
+	objects =
+	{
+		windmill_1 = 0.005
+		windmill_2 = 0.005
+		windmill_3 = 0.005
+		windmill_4 = 0.005
+		cottage_1 = 0.01	
+		cottage_2 = 0.01
+		cottage_3 = 0.01
+		cottage_4 = 0.01
+		cottage_5 = 0.01
+		cottage_6 = 0.01
+		cottage_7 = 0.01
+		cottage_8 = 0.01
+		cottage_9 = 0.01
+		cottage_10 = 0.01
+		cottage_11 = 0.01
+		cottage_12 = 0.01
+	}
+}
+
+#brown
+plains = {
+	color = {
+		8 9 10 11 12 13 14 15
+	}
+	movement_cost = 1.1
+	
+}
+
+#pale-yellow
+steppe = {
+	color = {
+		16 17 18 19 20 21 22 23
+	}
+	movement_cost = 1.0
+##	tree = grass
+}
+
+#dark-green
+coniferous_forest = {
+	color = {
+		24 25 26 27 28 29 30 31
+	}
+	movement_cost = 2.5
+	tree = coniferous
+	defender = 1
+}
+
+#bright-green
+decidous_forest = {
+	color = {
+		32 33 34 35 36 37 38 39
+	}
+	movement_cost = 2.0
+	tree = decidous
+	defender = 1
+}
+
+#cyan-green
+jungle = {
+	color = {
+		40 41 42 43 44 45 46 47
+	}
+	movement_cost = 3.0
+	tree = jungletree
+	defender = 1
+}
+
+#cyan
+marsh = {
+	color = {
+		48 49 50 51 52 53 54 55
+	}
+	movement_cost = 2.2
+	defender = 1
+}
+
+#dark yellow
+desert = {
+	color = {
+		56 57 58 59 60 61 62 63
+	}
+	movement_cost = 1.25
+##	tree = palmtree
+}
+
+#darkgrey
+hills = {
+	color = {
+		64 65 66 67 68 69 70 71
+	}
+	movement_cost = 1.66
+	altitude = 0.3
+	defender = 1
+}
+
+#light grey
+mountains = {
+	color = {
+		72 73 74 75 76 77 78 79
+	}
+	movement_cost = 3.0
+	altitude = 0.7
+	defender = 2
+}
+
+#purple
+impassable_mountains = {
+	color = {
+		80
+	}
+	movement_cost = 8.0
+	altitude = 1
+}
+
+inland_ocean = { 
+	color = {
+		81
+	}
+	movement_cost = 1.0
+	is_water = yes
+	inland_sea = yes
+	has_texture = no
+}
+
+
+pti = {
+	color = {
+		255
+	}
+	has_texture = no
+}

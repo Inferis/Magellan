@@ -1,0 +1,19 @@
+4 blokken
+
+* provinces 
+* tree
+* leaf ownership
+* leaf data
+
+provinces = 2 bytes per province => id, bit 15 markeert EOL.
+als provinceid > MAX_PROV dan wat voodoo met neighbouring province, maar waarom nog onduidelijk (rivieren?)
+
+tree = ?
+
+leaf ownership = per leaf een index in de provinces lijst om te zien voor bij welke province die leaf hoort
+
+leaf data is opgeslagen als 3 bytes maar is eigenlijk 4 6 bit values.
+
+
+17x35 = 595!
+35+595 = 630!

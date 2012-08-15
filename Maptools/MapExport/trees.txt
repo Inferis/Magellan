@@ -1,0 +1,14 @@
+coniferous = { 
+	texture = "terrain/trees/coniferous.dds"
+	tree_density = 1.0	# 80% chance of a tree
+}
+
+decidous = { 
+	texture = "terrain/trees/decidous.dds"
+	tree_density = 1.0	# 60% chance of a tree
+}
+
+jungletree = { 
+	texture = "terrain/trees/jungletree.dds"
+	tree_density = 1.0	# 60% chance of a tree
+}

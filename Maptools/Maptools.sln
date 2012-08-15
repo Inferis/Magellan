@@ -1,0 +1,225 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EU2Data", "..\EU2\EU2Data.csproj", "{36168C30-E146-42C6-8874-9D04A7457DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapExtract", "MapExtract\MapExtract.csproj", "{87F54484-72B2-48CD-8E7B-BB7FBCB7F4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EU2Edit", "..\EU2Edit\EU2Edit.csproj", "{B0AE6803-6A6F-43C9-9604-198E1414506C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapImage", "MapImage\MapImage.csproj", "{A520E54B-D238-40F3-996F-1830F767B091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSDLib", "..\PSDLib\PSDLib.csproj", "{24FF4352-2A27-40F2-A9A4-2A78BFDB4493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapToolsLib", "MapToolsLib\MapToolsLib.csproj", "{849F2678-4EA3-4BE9-B4C0-F8B11167AA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapColor", "MapColor\MapColor.csproj", "{58FF2EB5-D990-4D28-AFB7-F8183B18A423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapInject", "MapInject\MapInject.csproj", "{1A12C984-E5CE-4942-B97D-DBB0FB6B2DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapProvince", "MapProvince\MapProvince.csproj", "{8F1F4E3A-7DD9-4994-9CBA-B3AEF96B53DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapView", "MapView\MapView.csproj", "{53B45BDA-7191-401C-8D30-E3E37AC8F755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EU2MapEditorControls", "..\EU2MapCodecDev\EU2MapEditorControls\EU2MapEditorControls.csproj", "{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapExplorer", "MapExplorer\MapExplorer.csproj", "{FE2CC10F-5EFA-4A4B-97BB-C200A4C4B0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapStats", "MapStats\MapStats.csproj", "{D10D9787-ED4E-4C4D-A546-DE194153651B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{64698BE9-B913-43D6-95BF-ADAF7918E9C6}"
+	ProjectSection(SolutionItems) = preProject
+		Magellan Readme.html = Magellan Readme.html
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapToolsVersion", "MapToolsVersion\MapToolsVersion.csproj", "{F51885EB-7669-46C8-ACAA-B232494B89E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapToolsMapLib", "MapToolsMapLib\MapToolsMapLib.csproj", "{70D896A8-B6D9-4788-823A-57499435E1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayerPainterLib", "LayerPainterLib\LayerPainterLib.csproj", "{4144582E-9BDA-4555-830B-CBB92CFC99FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTest", "MapTest\MapTest.csproj", "{A30ABD97-2C81-43F2-8B65-ABAF33E0CF4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries - Core", "Libraries - Core", "{7E7FB493-71E2-421A-9210-BBB84E5702C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries - Support", "Libraries - Support", "{F183CA79-B9AA-4F57-BBDB-75D28A79DFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapExport", "MapExport\MapExport.csproj", "{16383D69-78D4-40D6-ACDA-43AE4A79FA0D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 19
+		SccProjectUniqueName0 = ..\\EU2\\EU2Data.csproj
+		SccProjectTopLevelParentUniqueName0 = Maptools.sln
+		SccProjectName0 = \u0022$/EU2/EU2Data\u0022,\u0020DAAAAAAA
+		SccLocalPath0 = ..\\EU2
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = ..\\EU2Edit\\EU2Edit.csproj
+		SccProjectTopLevelParentUniqueName1 = Maptools.sln
+		SccProjectName1 = \u0022$/EU2/EU2Edit\u0022,\u0020YCAAAAAA
+		SccLocalPath1 = ..\\EU2Edit
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\EU2MapCodecDev\\EU2MapEditorControls\\EU2MapEditorControls.csproj
+		SccProjectTopLevelParentUniqueName2 = Maptools.sln
+		SccProjectName2 = \u0022$/EU2/EU2MapEditorControls\u0022,\u0020IDAAAAAA
+		SccLocalPath2 = ..\\EU2MapCodecDev\\EU2MapEditorControls
+		CanCheckoutShared = false
+		SccProjectUniqueName3 = ..\\PSDLib\\PSDLib.csproj
+		SccProjectTopLevelParentUniqueName3 = Maptools.sln
+		SccProjectName3 = \u0022$/PSDLib\u0022,\u0020WDAAAAAA
+		SccLocalPath3 = ..\\PSDLib
+		CanCheckoutShared = false
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName5 = LayerPainterLib\\LayerPainterLib.csproj
+		SccProjectTopLevelParentUniqueName5 = Maptools.sln
+		SccLocalPath5 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = LayerPainterLib\\
+		SccProjectUniqueName6 = MapColor\\MapColor.csproj
+		SccLocalPath6 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = MapColor\\
+		SccProjectUniqueName7 = MapExplorer\\MapExplorer.csproj
+		SccLocalPath7 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = MapExplorer\\
+		SccProjectUniqueName8 = MapExport\\MapExport.csproj
+		SccLocalPath8 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = MapExport\\
+		SccProjectUniqueName9 = MapExtract\\MapExtract.csproj
+		SccLocalPath9 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = MapExtract\\
+		SccProjectUniqueName10 = MapImage\\MapImage.csproj
+		SccLocalPath10 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection10 = MapImage\\
+		SccProjectUniqueName11 = MapInject\\MapInject.csproj
+		SccLocalPath11 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection11 = MapInject\\
+		SccProjectUniqueName12 = MapProvince\\MapProvince.csproj
+		SccLocalPath12 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection12 = MapProvince\\
+		SccProjectUniqueName13 = MapStats\\MapStats.csproj
+		SccLocalPath13 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection13 = MapStats\\
+		SccProjectUniqueName14 = MapTest\\MapTest.csproj
+		SccLocalPath14 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection14 = MapTest\\
+		SccProjectUniqueName15 = MapToolsLib\\MapToolsLib.csproj
+		SccProjectTopLevelParentUniqueName15 = Maptools.sln
+		SccLocalPath15 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection15 = MapToolsLib\\
+		SccProjectUniqueName16 = MapToolsMapLib\\MapToolsMapLib.csproj
+		SccProjectTopLevelParentUniqueName16 = Maptools.sln
+		SccLocalPath16 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection16 = MapToolsMapLib\\
+		SccProjectUniqueName17 = MapToolsVersion\\MapToolsVersion.csproj
+		SccProjectTopLevelParentUniqueName17 = Maptools.sln
+		SccLocalPath17 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection17 = MapToolsVersion\\
+		SccProjectUniqueName18 = MapView\\MapView.csproj
+		SccLocalPath18 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection18 = MapView\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36168C30-E146-42C6-8874-9D04A7457DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36168C30-E146-42C6-8874-9D04A7457DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36168C30-E146-42C6-8874-9D04A7457DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36168C30-E146-42C6-8874-9D04A7457DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F54484-72B2-48CD-8E7B-BB7FBCB7F4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F54484-72B2-48CD-8E7B-BB7FBCB7F4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F54484-72B2-48CD-8E7B-BB7FBCB7F4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F54484-72B2-48CD-8E7B-BB7FBCB7F4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AE6803-6A6F-43C9-9604-198E1414506C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AE6803-6A6F-43C9-9604-198E1414506C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AE6803-6A6F-43C9-9604-198E1414506C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AE6803-6A6F-43C9-9604-198E1414506C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A520E54B-D238-40F3-996F-1830F767B091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A520E54B-D238-40F3-996F-1830F767B091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A520E54B-D238-40F3-996F-1830F767B091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A520E54B-D238-40F3-996F-1830F767B091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FF4352-2A27-40F2-A9A4-2A78BFDB4493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FF4352-2A27-40F2-A9A4-2A78BFDB4493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FF4352-2A27-40F2-A9A4-2A78BFDB4493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FF4352-2A27-40F2-A9A4-2A78BFDB4493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849F2678-4EA3-4BE9-B4C0-F8B11167AA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849F2678-4EA3-4BE9-B4C0-F8B11167AA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849F2678-4EA3-4BE9-B4C0-F8B11167AA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849F2678-4EA3-4BE9-B4C0-F8B11167AA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FF2EB5-D990-4D28-AFB7-F8183B18A423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FF2EB5-D990-4D28-AFB7-F8183B18A423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FF2EB5-D990-4D28-AFB7-F8183B18A423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FF2EB5-D990-4D28-AFB7-F8183B18A423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A12C984-E5CE-4942-B97D-DBB0FB6B2DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A12C984-E5CE-4942-B97D-DBB0FB6B2DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A12C984-E5CE-4942-B97D-DBB0FB6B2DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A12C984-E5CE-4942-B97D-DBB0FB6B2DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1F4E3A-7DD9-4994-9CBA-B3AEF96B53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1F4E3A-7DD9-4994-9CBA-B3AEF96B53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1F4E3A-7DD9-4994-9CBA-B3AEF96B53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1F4E3A-7DD9-4994-9CBA-B3AEF96B53DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B45BDA-7191-401C-8D30-E3E37AC8F755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B45BDA-7191-401C-8D30-E3E37AC8F755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B45BDA-7191-401C-8D30-E3E37AC8F755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B45BDA-7191-401C-8D30-E3E37AC8F755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2CC10F-5EFA-4A4B-97BB-C200A4C4B0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2CC10F-5EFA-4A4B-97BB-C200A4C4B0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2CC10F-5EFA-4A4B-97BB-C200A4C4B0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2CC10F-5EFA-4A4B-97BB-C200A4C4B0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10D9787-ED4E-4C4D-A546-DE194153651B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10D9787-ED4E-4C4D-A546-DE194153651B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10D9787-ED4E-4C4D-A546-DE194153651B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10D9787-ED4E-4C4D-A546-DE194153651B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51885EB-7669-46C8-ACAA-B232494B89E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51885EB-7669-46C8-ACAA-B232494B89E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51885EB-7669-46C8-ACAA-B232494B89E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51885EB-7669-46C8-ACAA-B232494B89E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D896A8-B6D9-4788-823A-57499435E1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D896A8-B6D9-4788-823A-57499435E1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D896A8-B6D9-4788-823A-57499435E1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D896A8-B6D9-4788-823A-57499435E1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4144582E-9BDA-4555-830B-CBB92CFC99FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4144582E-9BDA-4555-830B-CBB92CFC99FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4144582E-9BDA-4555-830B-CBB92CFC99FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4144582E-9BDA-4555-830B-CBB92CFC99FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30ABD97-2C81-43F2-8B65-ABAF33E0CF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30ABD97-2C81-43F2-8B65-ABAF33E0CF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30ABD97-2C81-43F2-8B65-ABAF33E0CF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30ABD97-2C81-43F2-8B65-ABAF33E0CF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16383D69-78D4-40D6-ACDA-43AE4A79FA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16383D69-78D4-40D6-ACDA-43AE4A79FA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16383D69-78D4-40D6-ACDA-43AE4A79FA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16383D69-78D4-40D6-ACDA-43AE4A79FA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0AE6803-6A6F-43C9-9604-198E1414506C} = {7E7FB493-71E2-421A-9210-BBB84E5702C6}
+		{24FF4352-2A27-40F2-A9A4-2A78BFDB4493} = {7E7FB493-71E2-421A-9210-BBB84E5702C6}
+		{7665C8C2-7F2B-4D3F-BA0B-87E562F66A33} = {7E7FB493-71E2-421A-9210-BBB84E5702C6}
+		{36168C30-E146-42C6-8874-9D04A7457DCC} = {7E7FB493-71E2-421A-9210-BBB84E5702C6}
+		{F51885EB-7669-46C8-ACAA-B232494B89E7} = {F183CA79-B9AA-4F57-BBDB-75D28A79DFD4}
+		{70D896A8-B6D9-4788-823A-57499435E1EA} = {F183CA79-B9AA-4F57-BBDB-75D28A79DFD4}
+		{4144582E-9BDA-4555-830B-CBB92CFC99FC} = {F183CA79-B9AA-4F57-BBDB-75D28A79DFD4}
+		{849F2678-4EA3-4BE9-B4C0-F8B11167AA55} = {F183CA79-B9AA-4F57-BBDB-75D28A79DFD4}
+	EndGlobalSection
+EndGlobal
